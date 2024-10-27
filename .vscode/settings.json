@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "02deque容器的赋值操作": "cpp",
+        "ostream": "cpp"
+    }
+}

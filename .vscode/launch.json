@@ -1,0 +1,31 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build"
+        }
+    ]
+}
+//F9打断点调试
+//F5运行调试
+//F10单步调试
+//F11跳过调试
+//Ctrl+F2停止调试
